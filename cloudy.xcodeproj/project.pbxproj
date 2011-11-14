@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3714046C146EAC3E00A94E60 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3714046B146EAC3E00A94E60 /* MessageUI.framework */; };
+		3714046F1470B58500A94E60 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3714046E1470B58500A94E60 /* Settings.bundle */; };
+		37A6B4B8146DCE2D0010547B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A6B4B7146DCE2D0010547B /* UIKit.framework */; };
+		37A6B4BA146DCE2D0010547B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A6B4B9146DCE2D0010547B /* Foundation.framework */; };
+		37A6B4BC146DCE2D0010547B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A6B4BB146DCE2D0010547B /* CoreGraphics.framework */; };
+		37A6B4BE146DCE2D0010547B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A6B4BD146DCE2D0010547B /* CoreData.framework */; };
+		37A6B4C4146DCE2D0010547B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A6B4C2146DCE2D0010547B /* InfoPlist.strings */; };
+		37A6B4C6146DCE2D0010547B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6B4C5146DCE2D0010547B /* main.m */; };
+		37A6B4CA146DCE2D0010547B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6B4C9146DCE2D0010547B /* AppDelegate.m */; };
+		37A6B4CD146DCE2D0010547B /* cloudy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37A6B4CB146DCE2D0010547B /* cloudy.xcdatamodeld */; };
+		37A6B4DB146DD44A0010547B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6B4D9146DD44A0010547B /* HomeViewController.m */; };
+		37A6B4DC146DD44A0010547B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A6B4DA146DD44A0010547B /* HomeViewController.xib */; };
+		37F8D7C11471B41600A54DA3 /* leaderboard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 37F8D7C01471B41600A54DA3 /* leaderboard.JPG */; };
+		37F8D7C41471B85900A54DA3 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 37F8D7C31471B85900A54DA3 /* README.markdown */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3714046B146EAC3E00A94E60 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3714046E1470B58500A94E60 /* Settings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Settings.bundle; sourceTree = "<group>"; };
+		37A6B4B3146DCE2D0010547B /* cloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A6B4B7146DCE2D0010547B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37A6B4B9146DCE2D0010547B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A6B4BB146DCE2D0010547B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37A6B4BD146DCE2D0010547B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37A6B4C1146DCE2D0010547B /* cloudy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloudy-Info.plist"; sourceTree = "<group>"; };
+		37A6B4C3146DCE2D0010547B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37A6B4C5146DCE2D0010547B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37A6B4C7146DCE2D0010547B /* cloudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cloudy-Prefix.pch"; sourceTree = "<group>"; };
+		37A6B4C8146DCE2D0010547B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37A6B4C9146DCE2D0010547B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37A6B4CC146DCE2D0010547B /* cloudy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cloudy.xcdatamodel; sourceTree = "<group>"; };
+		37A6B4D8146DD44A0010547B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		37A6B4D9146DD44A0010547B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		37A6B4DA146DD44A0010547B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		37F8D7C01471B41600A54DA3 /* leaderboard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leaderboard.JPG; sourceTree = "<group>"; };
+		37F8D7C31471B85900A54DA3 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.markdown; path = cloudy/README.markdown; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A6B4B0146DCE2D0010547B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3714046C146EAC3E00A94E60 /* MessageUI.framework in Frameworks */,
+				37A6B4B8146DCE2D0010547B /* UIKit.framework in Frameworks */,
+				37A6B4BA146DCE2D0010547B /* Foundation.framework in Frameworks */,
+				37A6B4BC146DCE2D0010547B /* CoreGraphics.framework in Frameworks */,
+				37A6B4BE146DCE2D0010547B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A6B4A8146DCE2D0010547B = {
+			isa = PBXGroup;
+			children = (
+				37F8D7C31471B85900A54DA3 /* README.markdown */,
+				37A6B4BF146DCE2D0010547B /* cloudy */,
+				37A6B4B6146DCE2D0010547B /* Frameworks */,
+				37A6B4B4146DCE2D0010547B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A6B4B4146DCE2D0010547B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A6B4B3146DCE2D0010547B /* cloudy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A6B4B6146DCE2D0010547B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3714046B146EAC3E00A94E60 /* MessageUI.framework */,
+				37A6B4B7146DCE2D0010547B /* UIKit.framework */,
+				37A6B4B9146DCE2D0010547B /* Foundation.framework */,
+				37A6B4BB146DCE2D0010547B /* CoreGraphics.framework */,
+				37A6B4BD146DCE2D0010547B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A6B4BF146DCE2D0010547B /* cloudy */ = {
+			isa = PBXGroup;
+			children = (
+				37A6B4C8146DCE2D0010547B /* AppDelegate.h */,
+				37A6B4C9146DCE2D0010547B /* AppDelegate.m */,
+				37A6B4D8146DD44A0010547B /* HomeViewController.h */,
+				37A6B4D9146DD44A0010547B /* HomeViewController.m */,
+				37A6B4DA146DD44A0010547B /* HomeViewController.xib */,
+				37A6B4CB146DCE2D0010547B /* cloudy.xcdatamodeld */,
+				37A6B4C0146DCE2D0010547B /* Supporting Files */,
+			);
+			path = cloudy;
+			sourceTree = "<group>";
+		};
+		37A6B4C0146DCE2D0010547B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37F8D7C01471B41600A54DA3 /* leaderboard.JPG */,
+				3714046E1470B58500A94E60 /* Settings.bundle */,
+				37A6B4C1146DCE2D0010547B /* cloudy-Info.plist */,
+				37A6B4C2146DCE2D0010547B /* InfoPlist.strings */,
+				37A6B4C5146DCE2D0010547B /* main.m */,
+				37A6B4C7146DCE2D0010547B /* cloudy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A6B4B2146DCE2D0010547B /* cloudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A6B4D0146DCE2D0010547B /* Build configuration list for PBXNativeTarget "cloudy" */;
+			buildPhases = (
+				37A6B4AF146DCE2D0010547B /* Sources */,
+				37A6B4B0146DCE2D0010547B /* Frameworks */,
+				37A6B4B1146DCE2D0010547B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cloudy;
+			productName = cloudy;
+			productReference = 37A6B4B3146DCE2D0010547B /* cloudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A6B4AA146DCE2D0010547B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Argonne National Laboratory";
+			};
+			buildConfigurationList = 37A6B4AD146DCE2D0010547B /* Build configuration list for PBXProject "cloudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37A6B4A8146DCE2D0010547B;
+			productRefGroup = 37A6B4B4146DCE2D0010547B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A6B4B2146DCE2D0010547B /* cloudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A6B4B1146DCE2D0010547B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A6B4C4146DCE2D0010547B /* InfoPlist.strings in Resources */,
+				37A6B4DC146DD44A0010547B /* HomeViewController.xib in Resources */,
+				3714046F1470B58500A94E60 /* Settings.bundle in Resources */,
+				37F8D7C11471B41600A54DA3 /* leaderboard.JPG in Resources */,
+				37F8D7C41471B85900A54DA3 /* README.markdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A6B4AF146DCE2D0010547B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A6B4C6146DCE2D0010547B /* main.m in Sources */,
+				37A6B4CA146DCE2D0010547B /* AppDelegate.m in Sources */,
+				37A6B4CD146DCE2D0010547B /* cloudy.xcdatamodeld in Sources */,
+				37A6B4DB146DD44A0010547B /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37A6B4C2146DCE2D0010547B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A6B4C3146DCE2D0010547B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A6B4CE146DCE2D0010547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A6B4CF146DCE2D0010547B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A6B4D1146DCE2D0010547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloudy/cloudy-Prefix.pch";
+				INFOPLIST_FILE = "cloudy/cloudy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37A6B4D2146DCE2D0010547B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloudy/cloudy-Prefix.pch";
+				INFOPLIST_FILE = "cloudy/cloudy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A6B4AD146DCE2D0010547B /* Build configuration list for PBXProject "cloudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A6B4CE146DCE2D0010547B /* Debug */,
+				37A6B4CF146DCE2D0010547B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A6B4D0146DCE2D0010547B /* Build configuration list for PBXNativeTarget "cloudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A6B4D1146DCE2D0010547B /* Debug */,
+				37A6B4D2146DCE2D0010547B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37A6B4CB146DCE2D0010547B /* cloudy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37A6B4CC146DCE2D0010547B /* cloudy.xcdatamodel */,
+			);
+			currentVersion = 37A6B4CC146DCE2D0010547B /* cloudy.xcdatamodel */;
+			path = cloudy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37A6B4AA146DCE2D0010547B /* Project object */;
+}
